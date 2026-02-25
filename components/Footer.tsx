@@ -31,7 +31,7 @@ const Footer = () => {
               <div className="footer-brand">
                 <Link href="/" className="footer-logo-link">
                   <Image 
-                    src="/images/logo.png" 
+                    src="/images/Payday-Today-Cash-white.png" 
                     alt="Paydaytodaycash" 
                     width={200} 
                     height={70}

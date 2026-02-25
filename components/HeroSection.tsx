@@ -24,7 +24,7 @@ const HeroSection = () => {
           <div className="col-12 col-lg-6">
             <div className="section__content">
               <span className="section__content-sub-title headingFour wow fadeInDown" data-wow-duration="0.8s">
-                <Image src="/images/title_vector.png" alt="vector" width={20} height={20} /> Fast Loan Provider USA
+                <Image src="/images/1.png" alt="vector" width={20} height={20} /> Fast Loan Provider USA
               </span>
               <h1 className="section__content-title display-3 wow fadeInUp" data-wow-duration="0.8s">
                 Get Fast <span className="word d-inline-flex">
@@ -51,7 +51,7 @@ const HeroSection = () => {
           <div className="col-12 col-lg-6 col-xxl-5">
             <div className="hero__thumb wow fadeInUp" data-wow-duration="0.8s">
               <Image 
-                src="/images/hero_img.png" 
+                src="/images/1.png" 
                 alt="Image" 
                 width={600} 
                 height={500}

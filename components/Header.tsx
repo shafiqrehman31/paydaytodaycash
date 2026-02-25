@@ -46,11 +46,11 @@ const Header = () => {
               <nav className="navbar navbar-expand-xl nav-shadow" id="#navbar">
                 <Link className="navbar-brand" href="/">
                   <Image 
-                    src="/images/logo2.png" 
+                    src="/images/Payday-Today-Cash.png" 
                     className="logo" 
                     alt="Paydaytodaycash" 
                     width={150} 
-                    height={50}
+                    height={100}
                     priority
                   />
                 </Link>
@@ -150,17 +150,14 @@ const Header = () => {
                   </div>
                 </div>
                 <ul className="custom-nevbar__right-location">
-                  <li>
-                    <p className="mb-2">Phone: </p>
-                    <a href="tel:+123456789" className="fs-4 contact">+123 456 789</a>
-                  </li>
+  
                   <li className="location">
                     <p className="mb-2">Email: </p>
                     <a href="mailto:info@paydaytodaycash.com" className="fs-4 contact">info@paydaytodaycash.com</a>
                   </li>
                   <li className="location">
                     <p className="mb-2">Location: </p>
-                    <p className="fs-4 contact">USA</p>
+                    <p className="fs-4 contact">67 Albion Street, Leeds, England LS1 5AA</p>
                   </li>
                 </ul>
               </div>

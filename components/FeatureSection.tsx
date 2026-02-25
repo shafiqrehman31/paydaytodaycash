@@ -99,17 +99,14 @@ const FeatureSection = () => {
             <div className="feature-image wow fadeInRight" data-wow-duration="0.8s">
               <div className="phone-mockup">
                 <Image 
-                  src="/images/phone-mockup.png" 
-                  alt="Paydaytodaycash mobile app" 
+                  src="/images/3.png" 
+                  alt="Paydaytodaycash " 
                   width={500} 
                   height={600}
                   className="img-fluid"
                 />
                 {/* If you don't have a phone image, use this gradient circle instead */}
-                <div className="phone-placeholder">
-                  <i className="bi bi-phone"></i>
-                  <span>Apply in minutes</span>
-                </div>
+               
               </div>
               
               {/* Floating elements for visual interest */}

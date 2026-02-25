@@ -3130,7 +3130,6 @@
                     width: 432px;
                     height: 300px;
                     z-index: 1;
-                    background: url(/images/hero_img_vector.png) no-repeat;
                     animation: pulse 5s infinite;
                 }
                 

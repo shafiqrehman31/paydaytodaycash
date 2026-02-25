@@ -46,53 +46,19 @@ const AboutClient = () => {
             </div>
             <div className="col-12 col-lg-6">
               <div className="hero-stats-card wow fadeInRight" data-wow-duration="0.8s">
-                <div className="stats-grid">
-                  <div className="stat-item-large">
-                    <span className="stat-value">$200</span>
-                    <span className="stat-label">to</span>
-                    <span className="stat-value">$5,000</span>
-                    <p className="stat-desc">Loan amounts for any need</p>
-                  </div>
-                  <div className="stat-features">
-                    <div className="feature-badge">
-                      <i className="bi bi-shield-check"></i>
-                      <span>No hidden fees</span>
-                    </div>
-                    <div className="feature-badge">
-                      <i className="bi bi-credit-card"></i>
-                      <span>Complete transparency</span>
-                    </div>
-                  </div>
-                </div>
+                  <div className="hero__thumb wow fadeInUp" data-wow-duration="0.8s">
+                                <Image 
+                                  src="/images/2.png" 
+                                  alt="Image" 
+                                  width={600} 
+                                  height={500}
+                                  className="img-fluid"
+                                />
+                              </div>
+            
                 
                 {/* App Preview Mockup */}
-                <div className="app-preview">
-                  <div className="phone-mockup">
-                    <div className="mockup-screen">
-                      <div className="mockup-header">
-                        <span className="mockup-title">Loan Calculator</span>
-                      </div>
-                      <div className="mockup-content">
-                        <div className="mockup-row">
-                          <span>Loan Amount</span>
-                          <span className="mockup-value">$2,500</span>
-                        </div>
-                        <div className="mockup-row">
-                          <span>Interest Rate</span>
-                          <span className="mockup-value">16.0%</span>
-                        </div>
-                        <div className="mockup-row highlight">
-                          <span>Monthly Payment</span>
-                          <span className="mockup-value">$126.89</span>
-                        </div>
-                        <div className="mockup-progress">
-                          <div className="progress-bar" style={{ width: '70%' }}></div>
-                        </div>
-                        <div className="mockup-button"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+
               </div>
             </div>
           </div>
@@ -247,41 +213,7 @@ const AboutClient = () => {
       </section>
 
       {/* Core Values */}
-      <section className="core-values">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-12 col-lg-6">
-              <div className="values-grid">
-                <div className="value-item wow fadeInUp" data-wow-duration="0.8s">
-                  <div className="value-header">
-                    <i className="bi bi-rocket-takeoff"></i>
-                    <h3>Speed</h3>
-                  </div>
-                  <p>We know that when you need money, you usually need it now. Our system processes requests in milliseconds.</p>
-                </div>
-                
-                <div className="value-item wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
-                  <div className="value-header">
-                    <i className="bi bi-shield-lock"></i>
-                    <h3>Security</h3>
-                  </div>
-                  <p>We treat your data with the same security standards as a major financial institution.</p>
-                </div>
-                
-                <div className="value-item wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-                  <div className="value-header">
-                    <i className="bi bi-people"></i>
-                    <h3>Inclusivity</h3>
-                  </div>
-                  <p>We believe a credit score doesn't tell your whole story. Our network includes lenders who help people rebuild their financial health.</p>
-                </div>
-              </div>
-            </div>
-            
 
-          </div>
-        </div>
-      </section>
 
       {/* Final CTA */}
       <section className="about-cta">

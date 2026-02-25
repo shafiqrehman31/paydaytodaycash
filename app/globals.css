@@ -4356,13 +4356,13 @@
 .cta-title {
     font-size: 32px;
     font-weight: 700;
-    color: #006900;
+    color: #FFFFFF;
     margin-bottom: 10px;
 }
 
 .cta-text {
     font-size: 18px;
-    color: rgba(7, 76, 62, 0.8);
+    color: #FFF;
     margin: 0;
 }
 
@@ -6374,7 +6374,6 @@
 }
 
 .stat-card {
-    background: white;
     border-radius: 30px;
     padding: 30px 20px;
     text-align: center;
@@ -8001,13 +8000,13 @@ a.info-value:hover {
 .cta-title {
     font-size: 32px;
     font-weight: 700;
-    color: #006900;
+    color: #FFF;
     margin-bottom: 10px;
 }
 
 .cta-text {
     font-size: 18px;
-    color: rgba(7, 76, 62, 0.8);
+    color: #FFF;
     margin: 0;
 }
 

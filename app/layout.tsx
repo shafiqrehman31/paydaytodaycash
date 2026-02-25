@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="/images/favicon-32x32.png" type="image/x-icon" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         
         {/* CSS files - exactly like your HTML */}
