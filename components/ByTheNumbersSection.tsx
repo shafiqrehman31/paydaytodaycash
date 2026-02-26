@@ -12,26 +12,42 @@ const ByTheNumbersSection = () => {
     }
   }, []);
 
-  const stats = [
+  // Updated content with point #6
+  const whyChooseUs = [
     {
-      icon: "bi-shield-lock",
-      title: "Secure & Private",
-      highlight: "Bank-Level Encryption",
-      description: "Your data is protected by 256-bit SSL security and never sold to unauthorized parties.",
+      icon: "bi-shield-check",
+      title: "Secure & Encrypted Application",
+      description: "Your information is protected with advanced SSL security.",
       color: "primary"
     },
     {
-      icon: "bi-lightning-charge",
-      title: "Fast Funding",
-      highlight: "Next-Day Availability",
-      description: "Many lenders in our network can deposit funds directly to your account by the next business day.",
+      icon: "bi-clock",
+      title: "Fast Online Process",
+      description: "Complete the form in minutes — no paperwork required.",
       color: "accent"
     },
     {
+      icon: "bi-x-circle",
+      title: "No Obligation",
+      description: "Review offers before deciding. You're not required to accept anything.",
+      color: "secondary"
+    },
+    {
       icon: "bi-people",
-      title: "All Credit Types",
-      highlight: "Fair Consideration",
-      description: "Our lenders look beyond just your credit score. We accept requests from all credit backgrounds.",
+      title: "All Credit Backgrounds Considered",
+      description: "Lenders may review applications from various credit profiles.",
+      color: "primary"
+    },
+    {
+      icon: "bi-eye",
+      title: "Transparent Terms",
+      description: "Loan terms and costs are clearly shown before you agree.",
+      color: "accent"
+    },
+    {
+      icon: "bi-lightning-charge",
+      title: "Quick Funding Options",
+      description: "Receive lender offers fast, with funds available as soon as the next business day.*",
       color: "secondary"
     }
   ];
@@ -52,10 +68,10 @@ const ByTheNumbersSection = () => {
             <div className="section__header text-center">
               <span className="section__header-sub-title headingFour wow fadeInDown" data-wow-duration="0.8s">
                 <Image src="/images/title_vector.png" alt="vector" width={20} height={20} />
-                By The Numbers
+                Why People Choose Us
               </span>
               <h2 className="section__header-title wow fadeInUp" data-wow-duration="0.8s">
-                Why Thousands Choose <span className="highlight-text">Paydaytodaycash</span>
+                Thousands Trust <span className="highlight-text">Paydaytodaycash</span>
               </h2>
               <p className="section__header-content wow fadeInDown" data-wow-duration="0.8s">
                 Built to help you compare options quickly, safely, and with confidence.
@@ -64,20 +80,18 @@ const ByTheNumbersSection = () => {
           </div>
         </div>
 
-        {/* Stats Cards */}
+        {/* Why People Choose Us Cards - Now with 6 items */}
         <div className="row g-4">
-          {stats.map((stat, index) => (
+          {whyChooseUs.map((item, index) => (
             <div key={index} className="col-12 col-md-6 col-lg-4">
-              <div className={`stat-card stat-${stat.color} wow fadeInUp`} data-wow-duration="0.8s" data-wow-delay={`${index * 0.15}s`}>
+              <div className={`stat-card stat-${item.color} wow fadeInUp`} data-wow-duration="0.8s" data-wow-delay={`${index * 0.1}s`}>
                 <div className="stat-icon-wrapper">
-                  <i className={`bi ${stat.icon}`}></i>
+                  <i className={`bi ${item.icon}`}></i>
                   <div className="icon-ring"></div>
                 </div>
                 
-                <h3 className="stat-title">{stat.title}</h3>
-                <h4 className="stat-highlight">{stat.highlight}</h4>
-                
-                <p className="stat-description">{stat.description}</p>
+                <h3 className="stat-title">{item.title}</h3>
+                <p className="stat-description">{item.description}</p>
                 
                 <div className="stat-footer">
                   <span className="stat-number">{index + 1}</span>
@@ -88,25 +102,29 @@ const ByTheNumbersSection = () => {
           ))}
         </div>
 
-        {/* Trust Badges */}
+        {/* Trust Badges - Upgraded with emoji icons */}
         <div className="row justify-content-center mt-5">
           <div className="col-12">
             <div className="trust-badges wow fadeInUp" data-wow-duration="0.8s">
               <div className="badge-item">
-                <i className="bi bi-check-circle-fill"></i>
-                <span>10,000+ Loans Connected</span>
+                <span className="badge-emoji">📝</span>
+                <span>10,000+ Applications Processed</span>
               </div>
               <div className="badge-item">
-                <i className="bi bi-check-circle-fill"></i>
-                <span>4.8 ★ Trustpilot Rating</span>
+                <span className="badge-emoji">🌎</span>
+                <span>Nationwide U.S. Coverage</span>
               </div>
               <div className="badge-item">
-                <i className="bi bi-check-circle-fill"></i>
-                <span>50 State Coverage</span>
+                <span className="badge-emoji">🛡</span>
+                <span>256-Bit SSL Secured</span>
               </div>
               <div className="badge-item">
-                <i className="bi bi-check-circle-fill"></i>
-                <span>BBB Accredited</span>
+                <span className="badge-emoji">⏱</span>
+                <span>3-Minute Online Form</span>
+              </div>
+              <div className="badge-item">
+                <span className="badge-emoji">✔</span>
+                <span>No Obligation to Accept Offers</span>
               </div>
             </div>
           </div>
@@ -117,7 +135,7 @@ const ByTheNumbersSection = () => {
           <div className="col-12 text-center">
             <p className="customer-note wow fadeInUp" data-wow-duration="0.8s">
               <i className="bi bi-people-fill"></i> 
-              Join the thousands of Americans who've found the right loan through Paydaytodaycash
+              Join the thousands of US Citizens who've found the right loan through Paydaytodaycash
             </p>
           </div>
         </div>

@@ -81,7 +81,7 @@ const FeatureSection = () => {
                   </div>
                   <div className="feature-text">
                     <h4>Global Presence</h4>
-                    <p>Wide lender network coverage.</p>
+                    <p>Wide U.S. Lender Network</p>
                   </div>
                 </div>
               </div>

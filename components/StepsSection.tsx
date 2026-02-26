@@ -155,7 +155,7 @@ const StepsSection = () => {
               <div className="cta-content">
                 <h3 className="cta-title">Why wait? Your money could be just a few clicks away</h3>
                 <p className="cta-text">
-                  Join over 50,000 Americans who've used Paydaytodaycash to find the funds they needed, when they needed them most. No surprises, no hidden fees — just honest help.
+                  Join over 50,000 US Citizen who've used Paydaytodaycash to find the funds they needed, when they needed them most. No surprises, no hidden fees — just honest help.
                 </p>
                 <Link href="/contact" className="btn_theme btn_theme_active cta-button">
                   Start My Application <i className="bi bi-arrow-up-right"></i><span></span>

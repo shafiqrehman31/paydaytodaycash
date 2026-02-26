@@ -7,6 +7,7 @@ export default function ClientScripts() {
     const loadScripts = async () => {
       if (typeof window !== 'undefined') {
         // Load jQuery first
+        
         await import('jquery');
         
         // Then load Bootstrap JS

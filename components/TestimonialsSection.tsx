@@ -137,7 +137,7 @@ const TestimonialsSection = () => {
                 Customer Experiences
               </span>
               <h2 className="testimonials-title">
-                Trusted by Thousands Across America
+                Trusted by Thousands Across US Citizen
               </h2>
               <p className="testimonials-description">
                 Don't just take our word for it — hear from real customers who found the financial help they needed with Paydaytodaycash.

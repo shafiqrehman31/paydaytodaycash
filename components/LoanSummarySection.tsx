@@ -259,4 +259,5 @@ const LoanSummarySection = () => {
   );
 };
 
+
 export default LoanSummarySection;
