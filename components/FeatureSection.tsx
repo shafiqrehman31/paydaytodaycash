@@ -36,7 +36,7 @@ const FeatureSection = () => {
               
               <p className="feature-description wow fadeInDown" data-wow-duration="0.8s">
                 Our network includes lenders that may offer options based on your needs. 
-                Speedy Loan Link is your ideal partner in finding loans when you need them most.
+                Paydaytodaycash is your ideal partner in finding loans when you need them most.
               </p>
               
               <p className="feature-description wow fadeInDown" data-wow-duration="0.8s" data-wow-delay="0.1s">
